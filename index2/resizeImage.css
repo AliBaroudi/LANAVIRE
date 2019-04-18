@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.parent{
+  position: relative;
+}
+
+.bg{
+    background-image: url("img/bosser\ 01.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20%;
+}
+
+.top { 
+    width:auto; 
+    text-align:center; 
+    padding:20px; 
+    left: 45%;
+    
+} 
+.down { 
+    width:auto; 
+    text-align:center; 
+    padding:20px; 
+    
+} 
+.middle { 
+    width:auto; 
+    text-align:center; 
+    padding:20px;
+}
+img { 
+    max-width:100%;
+    height:auto;
+} 
+
+.top.image1 {
+position: absolute;
+top: 50%;
+left: 40%;
+}
+.top.image2 {
+position : absolute;
+top : 70%;
+left : 60%;
+
+
+}
+.middle.image3 {
+position: absolute;
+top: 70%;
+right: 50%;
+left: 4%;
+size: 200%;
+}
+.down.image4 {
+position: absolute;
+top: 30%;
+left: 40%;
+}
+.down.image5 {
+position : absolute;
+top : 70%;
+left : 60%;
+}
+
+
+  /* FOOTER */
+
+  footer{
+    width: 100%;
+    height:100px;
+    background-color: #2C3E50;
+ 
+  }
+ 
+  footer .container .copyright {
+    float: right;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #EEE;
+  }
+

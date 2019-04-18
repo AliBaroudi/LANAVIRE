@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Slider 2</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="slider.css">
+        
+
+        
+    </head>
+    <body>
+       
+        <div class="main">
+            
+            <div class="container">
+                
+                <div class="slider" id="sld">
+                    
+                    <div class="box">
+                        <h1>hello world</h1>
+                    </div>
+                    <div class="box">
+                        <h2>hello world</h2>
+                    </div>
+                    <div class="box"></div>
+                    <div classs="box"></div>
+                    <div class="box"></div>
+                    
+                </div>
+                
+            </div>
+            
+            <span  class="nav previous" onclick="fPrevious()">
+                <img src="" alt="">
+            </span>
+            <span  class="nav next" onclick="fNext()">
+                <img src="" alt="">
+            </span>
+            
+        </div>
+
+        <div >
+            <img class="image-left" src="logo.png" alt="">
+        </div>
+        
+        <script>
+            
+            var showed_box = 0;
+            
+            function fNext(){
+                
+                showed_box += -500;
+                
+                if(showed_box < -2000)
+                    showed_box = 0;
+                
+                document.getElementById('sld').style.transform = "translateY("+showed_box+"px)"; 
+            }
+            
+            function fPrevious(){
+                
+                showed_box += 500;
+                
+                if(showed_box > 0)
+                    showed_box = -2000;
+                
+                document.getElementById('sld').style.transform = "translateY("+showed_box+"px)"; 
+                
+            }
+            
+        </script>
+        
+        
+    </body>
+</html>

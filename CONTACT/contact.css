@@ -1,0 +1,33 @@
+
+
+    body {
+        margin: 0;
+    }
+    
+    #over img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 300px;
+        height: 300px;
+        padding-bottom: 20%;
+        padding-top: 20%;
+    }
+
+      .btn2 {
+        transform: rotate(-45deg); /* Équivalent à rotateZ(45deg) */
+        background-color: red;
+        margin-left: 60%;
+        margin-top: 40%;
+      }
+      .text1{
+        transform: rotate(-45deg);
+        margin-left: 16%;
+        margin-top: -17%;
+      }
+
+      .text2{
+          transform: rotate(-45deg);
+          margin-left: 51%;
+          margin-top: -20%;
+      }
