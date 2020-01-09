@@ -1,0 +1,20 @@
+.et-pb-all-modules .et_pb_ds_panorama:before,
+.et_pb_saved_layouts_list .et_pb_ds_panorama:before {
+  content: "\26";
+}
+/* font-family: 'ETmodules'; */
+
+
+.et-pb-all-modules .et_pb_ds_panorama,
+.et_pb_saved_layouts_list .et_pb_ds_panorama {
+  background-color: #3949ab;
+  color: white;
+}
+
+.et-pb-all-modules .et_pb_ds_panorama:after,
+.et_pb_saved_layouts_list .et_pb_ds_panorama:after {
+  content: url('../divi-sensei-64.png');
+  position: absolute;
+  top: 6px;
+  right: 0px;
+}
